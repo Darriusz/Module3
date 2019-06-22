@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 2vw;
+
+}
+
+h1 {
+	font-size:3.5vw;
+	margin-bottom: 0;
+	color: grey;
+	text-shadow: 1px 1px white;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2em;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+
+
+.myStyle {
+	background-color: grey;
+	border: 1px solid maroon;
+	padding: 10px;
+	text-align: justify;
+}
+
+.dish-name {
+	font-size: 1.5em;
+	font-weight: 600;
+	color:maroon;
+	text-shadow: 1px 1px black;
+	margin-top: 2%;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	body {
+		font-size: 14px
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		background-color: gray;
+		color:maroon;
+	}
+}
+
+/********** Medium+ devices **********/
+@media (min-width: 768px) {
+	.navbar-dark .navbar-nav .nav-link{
+	display: none;
+	}
+}
+
+/********** Large devices only **********/
+@media (min-width: 1000px) {
+
+	body {
+		font-size: 20px
+	}
+}
